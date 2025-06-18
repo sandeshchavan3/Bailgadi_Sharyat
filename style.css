@@ -25,18 +25,32 @@
     box-sizing: border-box;
 }
 
-body{
-    background: #f2f2f2;
-  }
+body {
+  margin: 0;
+  padding: 0;    /* Optional: 100% of the viewport height */
+  overflow-x: hidden;  /* Prevent horizontal scroll if any overflow */
+}
 
+.header {
+  position: relative;
+  z-index: 1;
+}
 .header img{
-    width: -webkit-fill-available;
     width: 100vw;
+  height: auto;             /* Maintain aspect ratio */
+  display: block;
+    
 }
 
 .loginForm{
-    min-height: 100vh;
-    padding: 35px;
+    background-image: url(images/backgroung.webp);
+  background-size: 100vw auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  padding: 35px;
+  margin-top: 0px;  /* Increase if needed */
+  z-index: 0;
 }
 
 .loginContent{
