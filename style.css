@@ -41,16 +41,16 @@ body {
   display: block;
     
 }
-
-.loginForm{
-    background-image: url(images/backgroung.webp);
+.loginbg{
+  background-image: url(images/backgroung.webp);
   background-size: 100vw auto;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  padding: 35px;
-  margin-top: 0px;  /* Increase if needed */
-  z-index: 0;
+  
+}
+.loginForm{
+    padding: 35px;
 }
 
 .loginContent{
