@@ -43,11 +43,11 @@ body {
 }
 
 .container{
-      background-image: url(images/backgroung.jpeg);
+      background-image: url(images/backgroung.webp);
   background-size: 100vw auto;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
 }
 
 .loginForm{
