@@ -37,20 +37,22 @@ body {
 }
 .header img{
     width: 100vw;
-  height: auto;             /* Maintain aspect ratio */
+  height: auto;          
   display: block;
     
 }
 
-.loginForm{
-    background-image: url(images/backgroung.webp);
-  background-size: 100vw 110%;
+.container{
+      background-image: url(images/backgroung.jpeg);
+  background-size: 100vw auto;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
+}
+
+.loginForm{
   padding: 35px;
-  margin-top: 0px;  /* Increase if needed */
-  z-index: 0;
+  margin-top: 0px;
 }
 
 .loginContent{
