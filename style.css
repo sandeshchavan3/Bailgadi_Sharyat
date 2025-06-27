@@ -27,8 +27,8 @@
 
 body {
   margin: 0;
-  padding: 0;    /* Optional: 100% of the viewport height */
-  overflow-x: hidden;  /* Prevent horizontal scroll if any overflow */
+  padding: 0;
+  overflow-x: hidden;
 }
 
 .header {
@@ -43,11 +43,39 @@ body {
 }
 
 .container{
-      background-image: url(images/backgroung.webp);
-  background-size: 100vw auto;
+  background-image: url(images/backgroung.webp);
+  background-size: 100vw 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 50px;
+  width: 100%;
+  padding: 0 40px;
+  border-bottom: 3px solid #0000006a;
+  background: #fff;
+  z-index: 3;
+  position: sticky;
+  top: 0;
+  font-size: 20px;
+}
+
+.navbar img{
+  height: 100%;
+}
+
+.navbar ul{
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  flex-wrap: wrap;
+  list-style: none;
 }
 
 .loginForm{
